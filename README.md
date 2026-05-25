@@ -1,3 +1,112 @@
+# Mini CRM
+
+A Customer Relationship Management (CRM) system built with Laravel to manage customers, leads, and business interactions efficiently.
+
+## Features
+
+- Customer Management
+- Lead Management
+- CRUD Operations
+- Form Validation
+- Authentication & Authorization
+- Dashboard Overview
+- Responsive User Interface
+- Laravel MVC Architecture
+
+## Technologies Used
+
+- Laravel
+- PHP
+- MySQL
+- Bootstrap
+- JavaScript
+- HTML & CSS
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Krishna7905/Mini-CRM-Laravel.git
+cd Mini-CRM-Laravel
+```
+
+### Install Dependencies
+
+```bash
+composer install
+```
+
+### Create Environment File
+
+```bash
+cp .env.example .env
+```
+
+### Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### Configure Database
+
+Update your `.env` file:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+```
+
+### Run Migrations
+
+```bash
+php artisan migrate
+```
+
+### Start Development Server
+
+```bash
+php artisan serve
+```
+
+Visit:
+
+```
+http://127.0.0.1:8000
+```
+
+## Project Structure
+
+```text
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+```
+
+## Author
+
+**Krishna Gupta**
+
+- BCA Student
+- PHP & Laravel Developer
+- GitHub: https://github.com/Krishna7905
+- LinkedIn: [https://www.linkedin.com/in/krishna-gupta](https://www.linkedin.com/in/krishna-gupta-106528345/)
+
+
+## License
+
+This project is open-source and available for learning and educational purposes.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
